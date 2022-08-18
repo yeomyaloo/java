@@ -47,7 +47,7 @@ public class ApiController {
 
         //발급 받은 키를 넘겨주고
         model.addAttribute("confmKey", confmKey);
-        model.addAttribute("")
+
 
         return "addresspopup";
     }

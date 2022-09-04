@@ -8,14 +8,38 @@ group = 'com.java'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
+<<<<<<< HEAD
+=======
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+>>>>>>> 56f34616a7146adb3a99b7fa2f36165198fd228a
 repositories {
 	mavenCentral()
 }
 
 dependencies {
+<<<<<<< HEAD
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	compileOnly 'org.projectlombok:lombok:1.18.24'
+=======
+	//implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	//implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity5'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	//testImplementation 'org.springframework.security:spring-security-test'
+	implementation 'org.webjars:bootstrap:5.2.0'
+>>>>>>> 56f34616a7146adb3a99b7fa2f36165198fd228a
 
 }
 

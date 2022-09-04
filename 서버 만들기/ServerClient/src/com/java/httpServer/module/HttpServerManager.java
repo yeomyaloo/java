@@ -61,7 +61,7 @@ public class HttpServerManager {
                     )
             );
             //서버 생성
-            httpServerManager = new HttpServerManager("localhost",3000);
+            httpServerManager = new HttpServerManager("localhost",8081);
             httpServerManager.start();
 
             /*Runtime.getRuntime().addShutdownHook() -> 프로그램 종료 시 특정 작업을 수행하는 메소드

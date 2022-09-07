@@ -24,7 +24,7 @@ public class RunnableThread implements Runnable{
 
     public static void main(String[] args) {
         Thread thread1 = new Thread(new RunnableThread("one"));
-        Thread thread2 = new Thread(new RunnableThread("two"));
+        Thread thread2 = new Thread(new RunnableThread("one"));
         Thread thread3 = new Thread(new RunnableThread("three"));
 
         thread1.start();

@@ -1,7 +1,5 @@
 package extendsThread;
 
-import java.util.concurrent.ExecutionException;
-
 public class ExtendsThread extends Thread{
     private String message;
     private int loopCount;
@@ -26,7 +24,7 @@ public class ExtendsThread extends Thread{
 
     public static void main(String[] args) {
         ExtendsThread thread1 = new ExtendsThread("one");
-        ExtendsThread thread2 = new ExtendsThread("two");
+        ExtendsThread thread2 = new ExtendsThread("one");
         ExtendsThread thread3 = new ExtendsThread("three");
 
         thread1.start();

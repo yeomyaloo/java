@@ -54,5 +54,6 @@ public class Example5_1 {
         task1.start();
 
         task1.join();
+        }
     }
 }

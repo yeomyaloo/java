@@ -12,11 +12,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/extendsThread/ExtendsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extendsThread/ExtendsThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/implementsThread/RunnableThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementsThread/RunnableThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/three/Example5_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/three/Example5_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/three/Example5_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/three/Example5_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +51,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/yeomyalooo/Documents/GitHub/java/basic java/thread"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="six" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="extendsThread" />
       <recent name="three" />
       <recent name="two" />
       <recent name="one" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Example4_2">
-    <configuration name="Example2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="two.Example2_2" />
+  <component name="RunManager" selected="애플리케이션.ExtendStopThread">
+    <configuration name="ExtendStopThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extendsThread.ExtendStopThread" />
       <module name="thread.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="two.*" />
+          <option name="PATTERN" value="extendsThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="three.Example3_1" />
+    <configuration name="ExtendThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extendsThread.ExtendThread" />
       <module name="thread.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="three.*" />
+          <option name="PATTERN" value="extendsThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example3_3$DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="three.Example3_3$DaemonThread" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="six.Main" />
       <module name="thread.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="three.*" />
+          <option name="PATTERN" value="six.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example3_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="three.Example3_3" />
+    <configuration name="UpcastingEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.UpcastingEx" />
       <module name="thread.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="three.*" />
+          <option name="PATTERN" value="java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example4_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="three.Example4_2" />
+    <configuration name="javaEx.UpcastingEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaEx.UpcastingEx" />
       <module name="thread.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="three.*" />
+          <option name="PATTERN" value="javaEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Example4_2" />
-        <item itemvalue="애플리케이션.Example3_3" />
-        <item itemvalue="애플리케이션.Example3_3$DaemonThread" />
-        <item itemvalue="애플리케이션.Example3_1" />
-        <item itemvalue="애플리케이션.Example2_2" />
+        <item itemvalue="애플리케이션.ExtendStopThread" />
+        <item itemvalue="애플리케이션.ExtendThread" />
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.javaEx.UpcastingEx" />
+        <item itemvalue="애플리케이션.UpcastingEx" />
       </list>
     </recent_temporary>
   </component>

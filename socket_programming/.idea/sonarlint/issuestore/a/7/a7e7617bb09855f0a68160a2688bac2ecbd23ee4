@@ -1,0 +1,10 @@
+
+>	java:S108")Either remove or fill this block of code.(ï­£Ä
+N	java:S106"9Replace this use of System.out or System.err by a logger.(î¸á¼
+>	java:S108")Either remove or fill this block of code.(ï­£Ä
+Z
+java:S1128"8Remove this unused import 'java.io.BufferedInputStream'.(Š—€åûÿÿÿÿ8ÄÉÅô¾0
+I
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å
+L
+java:S1128"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ

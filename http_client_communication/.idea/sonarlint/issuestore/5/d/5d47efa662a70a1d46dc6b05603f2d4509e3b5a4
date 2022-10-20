@@ -1,14 +1,16 @@
 
+^
+java:S4973<"<Strings and Boxed types should be compared using "equals()".(´«å™üÿÿÿÿ8å¥¹™¿0
 _
-java:S20951"DUse try-with-resources or close this "Socket" in a "finally" clause.(üé’×ùÿÿÿÿ
+java:S20955"DUse try-with-resources or close this "Socket" in a "finally" clause.(üé’×ùÿÿÿÿ
 _
 java:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(üé’×ùÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(åİ¸íüÿÿÿÿ
-S	java:S106'"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ
-X
-java:S18542"BRemove this useless assignment to local variable "bufferedReader".(÷«ôÿ
-I
-java:S14812"3Remove this unused "bufferedReader" local variable.(÷«ôÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ
+Q
+java:S18548"6Remove this useless assignment to local variable "br".(Ú©¢²ÿÿÿÿÿ
+B
+java:S14818"'Remove this unused "br" local variable.(Ú©¢²ÿÿÿÿÿ
+J	java:S108<")Either remove or fill this block of code.(´«å™üÿÿÿÿ8·¦¹™¿0
 F
 java:S1128"0Remove this unused import 'java.io.InputStream'.(¹»º
 L

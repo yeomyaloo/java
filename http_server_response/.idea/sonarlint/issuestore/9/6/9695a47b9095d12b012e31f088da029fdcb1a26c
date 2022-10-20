@@ -1,0 +1,15 @@
+
+N
+java:S1854"8Remove this useless assignment to local variable "port".(œåÔë
+N
+java:S1854"8Remove this useless assignment to local variable "port".(²¸÷ï
+U
+java:S1854":Remove this useless assignment to local variable "socket".(é‘¥Èúÿÿÿÿ
+D
+java:S1481")Remove this unused "port" local variable.(áÂª€þÿÿÿÿ
+A
+java:S1481"+Remove this unused "socket" local variable.( ¡² 
+@
+java:S1481"*Remove this unused "input" local variable.(ºÅ´“
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ºçÑ¯
+>	java:S108")Either remove or fill this block of code.(ï­£Ä

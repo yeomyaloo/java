@@ -22,15 +22,17 @@ public class Client {
 
         URL url = new URL(targetUrl);
         String host = url.getHost();
-        System.out.println(host);
+
 
         Socket socket = new Socket(host, 80);
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-
         PrintStream printStream = new PrintStream(socket.getOutputStream());
 
-        printStream.println("GET/ HTTP/1.1");
-        printStream.println("Host: httpbin.org/get");
+        printStream.println("GET / HTTP/1.1 200 OK");
+        printStream.println("Host: "+ url.getHost());
+        printStream.println("Accept: */*");
+
+
         printStream.println("");
         printStream.flush();
 
@@ -42,17 +44,26 @@ public class Client {
         bufferedReader.close();
         printStream.close();
     }
+
+
     public void ex2(String targetUrl, String methodName) throws IOException {
 
         URL url = new URL(targetUrl);
         String host = url.getHost();
         Socket socket = new Socket(host, 80);
-        BufferedReader bufferedReader = new BufferedReader(
-            new InputStreamReader(socket.getInputStream()));
 
-        PrintStream printStream = new PrintStream(socket.getOutputStream());
 
-        printStream.println(methodName+" HTTP/1.1");
+        BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+        PrintStream ps = new PrintStream(socket.getOutputStream());
+
+
+        if(methodName == "POST"){
+
+        } else {
+            ps.println("GET /get HTTP/1.1 200 OK");
+        }
+
+
 
 
 

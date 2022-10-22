@@ -4,7 +4,7 @@ public class BasicBillStore implements BillStore{
 
     @Override
     public void load(String filePath) {
-        
+
     }
 
     @Override
